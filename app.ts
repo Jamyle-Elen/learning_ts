@@ -72,3 +72,14 @@ function validateUser(user: string){
 const user = 'viewer'
 
 validateUser(user)
+
+for (let i = 0; i < 5; i++) {
+    console.log(i)
+}
+
+let nm = 0
+while (nm < 5) {
+    console.log(nm)
+    nm++
+}
+
