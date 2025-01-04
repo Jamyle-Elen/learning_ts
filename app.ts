@@ -82,4 +82,32 @@ while (nm < 5) {
     console.log(nm)
     nm++
 }
+console.clear()
 
+const array: Array<any>= [0,1,2,3,4,5]
+
+const stringArray: string[] = ['a', 'b', 'c']
+
+console.log(stringArray)
+
+console.log('array original', array)
+
+console.log('array modificado', array)
+console.clear()
+
+const buscaNum = array.find(num => num > 1)
+
+console.log(buscaNum)
+console.clear()
+
+// array.forEach(num => {
+//     if (num > 2) {
+//         console.log(num)
+//     }
+// })
+
+array.map(num => {
+    if (num > 4) {
+        console.log(num)
+    }
+})
